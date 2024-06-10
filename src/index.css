@@ -84,7 +84,7 @@ body {
 
 @media (min-width: 768px) {
   .container {
-    height: auto; 
+    height: auto;
   }
 }
 
@@ -127,5 +127,12 @@ body {
 li{
   padding: 10px;
   color: #f07a7e;
+  font-size: 18px;
+}
+
+.card > .quote-icon{
+  color: lightgray;
+ text-align: start;
+ font-size: x-large;
 }
 

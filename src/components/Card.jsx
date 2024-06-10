@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useState, useEffect } from "react";
 import SavedQuotes from "./SavedQuotes";
+import { FaQuoteLeft } from "react-icons/fa";
 
 function Card() {
   const [quote, setQuote] = useState({
@@ -51,6 +52,9 @@ function Card() {
         <SavedQuotes quotes={savedQuotes} handleClick={handleClick} />
       )}
       <div className="card">
+        <div className="quote-icon">
+          <FaQuoteLeft />
+        </div>
         {quote.content ? (
           <>
             <h1 className="quote">{quote.content}</h1>
