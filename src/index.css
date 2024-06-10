@@ -41,6 +41,16 @@ body {
   color: white;
 }
 
+.get-quote:hover{
+  background-image: linear-gradient(45deg, #e27275 0%, #fad0c4 99%, #e97f62 100%);
+  border: none;
+  padding: 0.8rem;
+  border-radius: 12px;
+  margin-right: 5px;
+  color: white;
+  cursor: pointer;
+}
+
 /* HTML: <div class="loader"></div> */
 .loader {
   width: 50px;

@@ -52,11 +52,11 @@ function Card() {
         <SavedQuotes quotes={savedQuotes} handleClick={handleClick} />
       )}
       <div className="card">
-        <div className="quote-icon">
-          <FaQuoteLeft />
-        </div>
         {quote.content ? (
           <>
+            <div className="quote-icon">
+              <FaQuoteLeft />
+            </div>
             <h1 className="quote">{quote.content}</h1>
             <button className="get-quote" onClick={fetchNewQuote}>
               New Quote
